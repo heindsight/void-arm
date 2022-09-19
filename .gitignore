@@ -12,5 +12,5 @@ crash.log
 #
 *.pkrvars.hcl
 
-# For built boxes
-*.box
+# Output artifacts
+output*
