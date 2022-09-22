@@ -6,3 +6,12 @@ source "arm-image" "rpi4" {
   image_mounts = ["/boot", "/"]
   resolv-conf = "copy-host"
 }
+
+source "arm-image" "rpi" {
+  iso_url = "https://repo-default.voidlinux.org/live/current/void-rpi-20210930.img.xz"
+  iso_checksum = "baffd016be8e716f0443410cd7da9bcd8aef4cc98c28ac22bb6bbea637a22dc7"
+  qemu_binary = "qemu-arm-static"
+  image_type = "raspberrypi"
+  image_mounts = ["/boot", "/"]
+  resolv-conf = "copy-host"
+}
