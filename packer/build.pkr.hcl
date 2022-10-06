@@ -62,7 +62,4 @@ build {
       "xbps-remove -Ry base-voidstrap openssl-c_rehash",
     ]
   }
-
-  post-processor "arm-image" {
-  }
 }
